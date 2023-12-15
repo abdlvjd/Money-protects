@@ -1,0 +1,26 @@
+h5{
+    font-size: 14px;
+    font-weight: 500;
+    color: #999;
+}
+
+.half-colored-line-product{
+    position: absolute;
+      height: 8px; 
+      width: 100%;
+      background-color: #ccc;
+      z-index: 1;
+  }
+  
+  .half-colored-line-product::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 75%;
+    background-color: #D3AB61;
+    z-index: 2;
+    transform-origin: left;
+    transform: skewX(-45deg);
+  }

@@ -1,0 +1,58 @@
+.header-main {
+  background-image: linear-gradient(to right, #151a26, #0b1c47);
+  width: 100%;
+  padding: 30px 0;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px; 
+}
+
+.header-buttons h3 {
+
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+}
+
+.header-buttons a {
+  display: flex;
+  background-color: transparent;
+  text-decoration: none;
+  align-items: center;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+  border-radius: 12px;
+}
+
+.header-buttons img {
+  margin-right: 5px;
+}
+
+.header-buttons a:hover,
+.header-buttons a.active {
+  background-color: #dba953;
+  border-radius: 12px;
+}
+
+.header-buttons a.highlight {
+  background-color: #DBA953; 
+}
+
+.header-icons {
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  gap: 50px;
+  justify-content: flex-end;
+}
+
+.new-appliocation h2{
+  font-weight: 300;
+  font-size: 25px;
+  color: #fff;
+  margin: 20px 0 0 0;
+}
